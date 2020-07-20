@@ -1,0 +1,22 @@
+html {
+ 
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: gainsboro;
+}
+
+.container > div{
+    width: 160px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    border-style: solid;
+    line-height: 75px;
+    cursor: pointer;
+}
+
